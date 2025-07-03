@@ -1,0 +1,27 @@
+# Core LangChain
+langchain
+langchain-core
+langchain-community
+langchain-google-genai
+
+# Google GenAI + Embeddings
+google-generativeai
+tiktoken
+
+# Vector DB (FAISS with no C++ dependencies)
+faiss-cpu
+
+# PDF/Text loaders (lightweight)
+pypdf
+pdfminer.six
+
+# Streamlit frontend
+streamlit
+
+# Auth
+streamlit-authenticator
+bcrypt
+
+# Env handling + utils
+python-dotenv
+tqdm

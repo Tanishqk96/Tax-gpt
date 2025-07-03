@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+
+# Virtual Envs
+venv/
+env/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Build/Cache
+*.egg-info/
+.cache/
+.eggs/
+build/
+dist/
+
+# Data/Indexes
+data/
+docs/
+faiss_index/
+*.db
+*.pdf
+
+# Git
+.git
+.gitignore
+
+# Others
+*.zip
+*.tar.gz
