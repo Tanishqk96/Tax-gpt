@@ -4,10 +4,13 @@ WORKDIR /app
 
 COPY . .
 
-# Skip gcc — try to install only Python deps
+# Install Python dependencies
 RUN pip install --upgrade pip \
  && pip install -r requirements.txt \
  && apt-get clean && rm -rf /var/lib/apt/lists/*
 
-EXPOSE 8501
-CMD ["streamlit", "run", "streamlit_app.py", "--server.address=0.0.0.0", "--server.port=8501"]
+# Expose the port Streamlit will run on
+EXPOSE 8000
+
+# Start Streamlit on port 8000 with CORS disabled
+CMD ["streamlit", "run", "streamlit_app.py", "--server.port=8000", "--server.enableCORS=false", "--server.address=0.0.0.0"]
