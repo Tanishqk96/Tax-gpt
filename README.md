@@ -1,12 +1,8 @@
----
-
-## 🧾 Tax-GPT – AI-Powered Tax Advisor with RAG 🔍
 
 **Tax-GPT** is an intelligent RAG (Retrieval-Augmented Generation) application built with **LangChain**, **FAISS**, **Gemini/Ollama**, and **Streamlit**. It helps users upload tax documents and ask natural language questions to receive accurate, context-aware answers.
 
-> 📌 Built for zero-token local testing & powerful cloud deployment – deploy it or run it entirely offline!
+📌 Built for zero-token local testing & powerful cloud deployment – deploy it or run it entirely offline!
 
----
 
 ## 🚀 Features
 
